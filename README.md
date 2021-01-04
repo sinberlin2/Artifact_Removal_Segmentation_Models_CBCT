@@ -2,7 +2,40 @@
 
 
 All necessary packages are installed with setup.py
+Organisation
+------------
 
+-   Train5.py 
+
+-   Parameters: width, depth, epochs, iteration (it, can be a name), architecture, dilation_f (factor ), batch_size, architecture, loss_f (loss function), lr (learning rate), opt (optimiser), best_epoch -tracked
+
+-   Option: to load model at specific epoch by setting: load_model, orig_epochs, orig_it
+
+-   Option: to calculate metrics only with: metrics_only
+
+-   Model Parameters tracked
+
+-   Validation loss and training time tracked
+
+-   run_folder= contains all the specifics of the run, ex: msd_pos1_width1_depth80_dil4_ep60_it1/
+
+-   Radial Images are in bigstore/shannon/ConeBeamResults/ +run_folder
+
+-   Radial2axial Images are in bigstore/shannon/ReconResults/ +run_folder
+
+-   Results are in bigstore/shannon/MetricsResults/ +run_folder:
+
+-   Plot: Evaluation plots of SSIM, MSE, DSC_low, DSC_high, PSNR per horizontal slice per phantom
+
+-   Array: SSIM, MSE, DSC_low, DSC_high, PSNR values per horizontal slice per phantom
+
+-   Array: 
+
+-   for SSIM/SSIM_ROI/MSE/MSE_ROI/DSC_low/DSC_low_ROI/DSC_high/DSC_high_ROI/PSNR/PSNR_ROI 
+
+-   For  input vs gs, iterative vs gs, radial2ax vs gs, horizontal vs gs
+
+-   Guild tracks all metrics for radial2ax vs. goldstandard (full image and ROI)
 
 Setup 
 ------
