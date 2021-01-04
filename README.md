@@ -1,6 +1,8 @@
 "# Artifact_Removal_Segmentation_Models_CBCT" 
 
 
+All necessary packages are installed with setup.py
+
 
 Setup 
 ------
