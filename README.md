@@ -1,5 +1,5 @@
-"# Artifact_Removal_Segmentation_Models_CBCT" 
-
+"Artifact Removal from ConeBeam CT images using segmentation networks" 
+This project is done at the Center for Wiskunde en Informatica (CWI) in Amsterdam with Felix Lucka and Jordi Minnema. 
 
 All necessary packages are installed with setup.py
 
