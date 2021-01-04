@@ -1,0 +1,8 @@
+train5:
+  description: CBCT Artifact Reduction
+  label: "model${architecture}_depth${depth}_it${it}_epochs${epochs}_width${width}_dilations${dilation_f}_loss${loss_f}"
+  main: train5
+  flags-import: [load_model,train,  metrics_only, width, depth, batch_size, architecture, loss_f, lr, opt, dilation_f, epochs, it, best_epoch, orig_epochs, orig_it]
+  output-scalars: '- (\key): (\value)'
+  sourcecode:
+  -include: "*.py"
