@@ -1,9 +1,9 @@
-"Artifact Removal from ConeBeam CT images using segmentation networks" 
+# Artifact Removal from ConeBeam CT images using segmentation networks 
 This project is done at the Center for Wiskunde en Informatica (CWI) in Amsterdam with Felix Lucka and Jordi Minnema. 
 
 All necessary packages are installed with setup.py
 
-Organisation
+## Organisation
 ------------
 
 -   Train5.py 
@@ -38,7 +38,7 @@ Organisation
 
 -   Guild tracks all metrics for radial2ax vs. goldstandard (full image and ROI)
 
-Setup 
+## Setup 
 ------
 
 -   import anaconda.sh
